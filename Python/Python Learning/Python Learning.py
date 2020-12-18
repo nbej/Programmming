@@ -625,28 +625,62 @@ init.py is there to tell python this directory as a package.
 """
 
 # SubTopic: Types of modules
-""""""
+"""
+There are two types of modules.
+They are:
+1. Built-in modules
+2. Created modules
+"""
 
-# SubTopic: Own modules
-""""""
+# SubTopic: Created modules
+"""
+Created modules are modules which we create by ourself.
+Any python file is called a module.
+Mostly modules have code which should imported 
+that means it does not have runnable code also called as a script.
+"""
 
 # SubTopic: Pip
-""""""
+"""
+Pip stands for pip install package.
+It is a package manager which is bundled with python.
+It is used for installing third-party modules or packages 
+created by other developers which help us for various purposes.
+"""
 
 # SubTopic: Module installation
-""""""
+"""
+To install a module:
+1. We open the terminal or powershell
+2. Type the command pip install <package name>
+"""
 
-# SubTopic: Environments (Virtual env)
-""""""
+# SubTopic: Virtual Environment (venv)
+"""
+Virtual Environment is a like a isolated folder or project which has a separate python 
+than the system-wide python by this we can install packages for only the separate python.
+When we have multiple projects with different sets of dependencies or requirements
+we can make different Virtual Environments for different projects.
+"""
 
-# SubTopic: What modules contain
-""""""
+# SubTopic: What modules contain?
+"""
+Modules contain different sets of statements like functions and variables etc.
+They are made in mind that these would be imported to other files so usually they don't runnable code.
+"""
 
 # SubTopic: Module v/s Script
-""""""
+"""
+Module is a python file which is usually imported to other files .
+Script is a runnable code like adding two numbers etc.
+But modules can also have runnable code.
+"""
 
 # SubTopic: Special variable __name__
-""""""
+"""
+A special variable __name__ is to determine 
+whether a module is the main module or not 
+"""
 
 # Topic: Math Module
 """"""
