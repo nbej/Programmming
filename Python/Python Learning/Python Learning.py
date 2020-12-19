@@ -683,22 +683,39 @@ whether a module is the main module or not
 """
 
 # Topic: Math Module
-""""""
+"""
+Math module is used for doing advanced calculations 
+which are not built-in to python directly like sqrt,factorial etc.
+"""
 
-# Topic: Arrays
-""""""
+# Topic: Array
+"""
+Array is also a python collection like list,set and tuple etc.
+But it is a bit more complex than others.
+"""
 
-# SubTopic: Array
-""""""
+# Note: Python does not have built-in support for Arrays, but Python Lists can be used instead.
+#  However, to work with arrays in Python you will have to import a library, like the NumPy library.
 
 # SubTopic: Functions of array
-""""""
+"""
+There are many functions of array like typecode, itemsize etc.
+These functions can only used on arrays and some of them can be used also on any data types.
+"""
 
-# SubTopic: Numpy Module
-""""""
+# SubTopic: Numpy Library
+"""
+To use arrays more comfortably and effectivity we use numpy (A Library) .
+Numpy is a third-party library so, we need to install it through pip.
+It has some good features and implementations. 
+"""
 
 # SubTopic: Multi Dimensional Array
-""""""
+"""
+With numpy we can make a multi-dimensional array 
+most likely a two-dimensional array.
+Two-Dimensional Array consists of various rows and columns like a matrix.
+"""
 
 # Topic: File I/O
 """"""
