@@ -718,22 +718,47 @@ Two-Dimensional Array consists of various rows and columns like a matrix.
 """
 
 # Topic: File I/O
-""""""
-
-# SubTopic: Types of files
-""""""
+"""
+In python we can play with files like .txt, .pdf files etc.
+We can edit and read files.
+First we need to open a file, play with it and close the file.
+There are four types of modes to open a file.
+They are:
+1. "r" for reading.
+2. "w"  for writing.
+3.  a"  for appending.
+4. "r+"  for both reading and writing
+We can also create files.
+"""
 
 # SubTopic: Directories
-""""""
+"""
+Directories are important because
+when you create a file it will be created in the working directory.
+When you try to open a file it will search in the working directory 
+until we specify the file path.
+We can also create in different directories.
+"""
 
 # SubTopic: open keyword
-""""""
+"""
+open keyword is used to open a file.
+It is mandatory to open the file before you work with it.
+"""
 
 # SubTopic: open, close
-""""""
+"""
+After you open the file and work with it,
+it is a good practice to close the file.
+To close a file we use the close keyword. 
+"""
 
 # SubTopic: with Block
-""""""
+"""
+With the help of with block we no longer need to close the file 
+because with block will close it by itself.
+It is a good practice to use with block to work with files.
+"""
 
 # Topic: Exception, Error handling
 """"""
