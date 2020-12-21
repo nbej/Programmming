@@ -760,17 +760,44 @@ because with block will close it by itself.
 It is a good practice to use with block to work with files.
 """
 
-# Topic: Exception, Error handling
-""""""
+# Topic: Exception or Error handling
+"""
+Errors are the problems in a program 
+due to which the program will stop the execution.
+So exceptions are raised when the program is syntactically correct 
+but the code resulted in an error.
+This exception does not stop the execution of the program,
+however, it changes the flow of the program.
+"""
 
 # SubTopic: Types of errors
-""""""
+"""
+There are three types of errors.
+They are:
+1. Syntax Errors
+2. Logical Errors
+3. Runtime Errors 
 
-# SubTopic: try, else, except, finally
-""""""
+Syntax Errors are done by the developer with syntax.
+Logical Errors are which have problem with the logic.
+Runtime Errors are which user make so as a developer 
+we need to handle those errors.
+We can to it in python by using try, except keywords.
+"""
+
+# SubTopic: try, except, finally
+"""
+try is a keyword which is used before the 
+problematic or questionable statements in logic and runtime.
+except keyword is used to manipulate the error.
+finally is used to complete the error like closing a file.
+"""
 
 # SubTopic: Raising exceptions
-""""""
+"""
+Sometimes we know a error can occur so we raise exceptions to handle it
+in such a way that user could understand like popping a message etc. 
+"""
 
 # Topic: Execution of python
 """"""
