@@ -598,7 +598,7 @@ Many companies use modular programming to write code because of it's benefits.
 
 # SubTopic: Modules
 """
-Modules are simply python files arranged and written code 
+Modules are simply python files arranged and written code
 in such a way like functions in one file, variables in one file etc.
 These modules can also be reused.
 There are also built-in modules.
@@ -606,14 +606,14 @@ There are also built-in modules.
 
 # SubTopic: import
 """
-import is a keyword used to bring in other modules 
+import is a keyword used to bring in other modules
 into a python file or a module.
 These is mainly used to import built-in modules.
 """
 
 # SubTopic: from
 """
-from is also a keyword used before import keyword to 
+from is also a keyword used before import keyword to
 import a specific part of a module like a function etc.
 """
 
@@ -657,7 +657,7 @@ To install a module:
 
 # SubTopic: Virtual Environment (venv)
 """
-Virtual Environment is a like a isolated folder or project which has a separate python 
+Virtual Environment is a like a isolated folder or project which has a separate python
 than the system-wide python by this we can install packages for only the separate python.
 When we have multiple projects with different sets of dependencies or requirements
 we can make different Virtual Environments for different projects.
@@ -671,20 +671,20 @@ They are made in mind that these would be imported to other files so usually the
 
 # SubTopic: Module v/s Script
 """
-Module is a python file which is usually imported to other files .
+Module is a python file which is usually imported to other files.
 Script is a runnable code like adding two numbers etc.
 But modules can also have runnable code.
 """
 
 # SubTopic: Special variable __name__
 """
-A special variable __name__ is to determine 
-whether a module is the main module or not 
+A special variable __name__ is to determine
+whether a module is the main module or not.
 """
 
 # Topic: Math Module
 """
-Math module is used for doing advanced calculations 
+Math module is used for doing advanced calculations
 which are not built-in to python directly like sqrt,factorial etc.
 """
 
@@ -705,16 +705,55 @@ These functions can only used on arrays and some of them can be used also on any
 
 # SubTopic: Numpy Library
 """
-To use arrays more comfortably and effectivity we use numpy (A Library) .
+To use arrays more comfortably and effectivity we use numpy (A Library).
 Numpy is a third-party library so, we need to install it through pip.
-It has some good features and implementations. 
+It has some good features and implementations.
 """
 
 # SubTopic: Multi Dimensional Array
 """
-With numpy we can make a multi-dimensional array 
+With numpy we can make a multi-dimensional array
 most likely a two-dimensional array.
 Two-Dimensional Array consists of various rows and columns like a matrix.
+"""
+
+# Topic: Exception or Error handling
+"""
+Errors are the problems in a program
+due to which the program will stop the execution.
+So exceptions are raised when the program is syntactically correct
+but the code resulted in an error.
+This exception does not stop the execution of the program,
+however, it changes the flow of the program.
+"""
+
+# SubTopic: Types of errors
+"""
+There are three types of errors.
+They are:
+1. Syntax Errors
+2. Logical Errors
+3. Runtime Errors
+
+Syntax Errors are done by the developer with syntax.
+Logical Errors are which have problem with the logic.
+Runtime Errors are which user make so as a developer
+we need to handle those errors.
+We can to it in python by using try, except keywords.
+"""
+
+# SubTopic: try, except, finally
+"""
+try is a keyword which is used before the
+problematic or questionable statements in logic and runtime.
+except keyword is used to manipulate the error.
+finally is used to complete the error like closing a file.
+"""
+
+# SubTopic: Raising exceptions
+"""
+Sometimes we know a error can occur so we raise exceptions to handle it
+in such a way that user could understand like popping a message etc.
 """
 
 # Topic: File I/O
@@ -735,7 +774,7 @@ We can also create files.
 """
 Directories are important because
 when you create a file it will be created in the working directory.
-When you try to open a file it will search in the working directory 
+When you try to open a file it will search in the working directory
 until we specify the file path.
 We can also create in different directories.
 """
@@ -750,65 +789,22 @@ It is mandatory to open the file before you work with it.
 """
 After you open the file and work with it,
 it is a good practice to close the file.
-To close a file we use the close keyword. 
+To close a file we use the close keyword.
 """
 
-# SubTopic: with Block
+# SubTopic: Context Managers
+"""
+Context managers will manage the usage of a resource like open and closing file
+regardless of a error in code logically and in runtime.
+A example of this is with keyword.
+We can also create our own context managers with the module named contextlib.
+"""
+
+# SubTopic: with Keyword
 """
 With the help of with block we no longer need to close the file 
 because with block will close it by itself.
 It is a good practice to use with block to work with files.
 """
-
-# Topic: Exception or Error handling
-"""
-Errors are the problems in a program 
-due to which the program will stop the execution.
-So exceptions are raised when the program is syntactically correct 
-but the code resulted in an error.
-This exception does not stop the execution of the program,
-however, it changes the flow of the program.
-"""
-
-# SubTopic: Types of errors
-"""
-There are three types of errors.
-They are:
-1. Syntax Errors
-2. Logical Errors
-3. Runtime Errors 
-
-Syntax Errors are done by the developer with syntax.
-Logical Errors are which have problem with the logic.
-Runtime Errors are which user make so as a developer 
-we need to handle those errors.
-We can to it in python by using try, except keywords.
-"""
-
-# SubTopic: try, except, finally
-"""
-try is a keyword which is used before the 
-problematic or questionable statements in logic and runtime.
-except keyword is used to manipulate the error.
-finally is used to complete the error like closing a file.
-"""
-
-# SubTopic: Raising exceptions
-"""
-Sometimes we know a error can occur so we raise exceptions to handle it
-in such a way that user could understand like popping a message etc. 
-"""
-
-# Topic: Execution of python
-""""""
-
-# SubTopic: Interpreter
-""""""
-
-# SubTopic: Byte code
-""""""
-
-# Topic: Context managers
-""""""
 
 # Documentation: https://docs.python.org/3/
