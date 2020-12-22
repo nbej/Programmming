@@ -38,6 +38,7 @@
 
 # Topic: Polymorphism
 """"""
+
 # SubTopic: Duck typing
 """"""
 
