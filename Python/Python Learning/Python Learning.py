@@ -164,8 +164,8 @@ Triple quotes are for writing doc strings or if there is single and double quote
 # Topic: Inputs
 """
 When we need to interact with a user we take inputs.
-Inputs are values given or taken by a user. 
-By default inputs come in a string format 
+Inputs are values given or taken by a user.
+By default inputs come in a string format
 but we can change the data type by typecasting.
 """
 
@@ -451,7 +451,7 @@ but result would be unordered because it is a set.
 
 # SubTopic: Dictionary
 """
-Dictionary is a collection of values written inside square brackets ( {} ) 
+Dictionary is a collection of values written inside square brackets ( {} )
 in a key, value pair separated by comma ( , ).
 Key and Value are separated by colan ( : ).
 It holds a pair of values,
@@ -516,7 +516,7 @@ There are different types of parameters.
 
 # SubTopic: Pass by value or reference
 """
-Pass by value means we are passing the value of the variable 
+Pass by value means we are passing the value of the variable
 not the variable itself so it would use a different memory location.
 Pass by reference means we are passing the address or memory location of the variable
 by these the variable will changed inside and outside the function.
@@ -544,9 +544,9 @@ These are called as optional parameters.
 # SubTopic: Scope of Variables
 """
 Normally we make variables inside a function and also outside a function.
-This is were Scope comes into play 
+This is were Scope comes into play
 if we make the same variables inside and outside a function 
-so then the outside one is called as a global variable which can accessed from anywhere in a file 
+so then the outside one is called as a global variable which can accessed from anywhere in a file
 the inside one is called as local variable which can be accessed only inside that particular function.
 To use a global variable inside a function we use the keyword called as global.
 """
@@ -554,7 +554,7 @@ To use a global variable inside a function we use the keyword called as global.
 # SubTopic: Lambda Functions
 """
 Lambda functions are anonymous functions which means they have no name to them.
-Normally when we make functions we should call them after making them 
+Normally when we make functions we should call them after making them
 but in lambdas they can be used anywhere.
 These are defined in one line so it is also called as one-liner functions.
 """
@@ -636,7 +636,7 @@ They are:
 """
 Created modules are modules which we create by ourself.
 Any python file is called a module.
-Mostly modules have code which should imported 
+Mostly modules have code which should imported
 that means it does not have runnable code also called as a script.
 """
 
@@ -644,7 +644,7 @@ that means it does not have runnable code also called as a script.
 """
 Pip stands for pip install package.
 It is a package manager which is bundled with python.
-It is used for installing third-party modules or packages 
+It is used for installing third-party modules or packages
 created by other developers which help us for various purposes.
 """
 
@@ -802,9 +802,10 @@ We can also create our own context managers with the module named contextlib.
 
 # SubTopic: with Keyword
 """
-With the help of with block we no longer need to close the file 
-because with block will close it by itself.
-It is a good practice to use with block to work with files.
+With the help of with suite (A group of individual statements which make a code block like if, for, while
+and also with keywords. All suites require indentation. Suite is also called as block)
+we no longer need to close the file because with block will close it by itself.
+It is a good practice to use with suite to work with files.
 """
 
 # Documentation: https://docs.python.org/3/
